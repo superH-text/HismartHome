@@ -10,19 +10,21 @@
 
     <!-- 顶部用户导航 -->
     <LinearLayout
+        android:id="@+id/ll_top"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/ll_top"
         android:background="@drawable/btn_normal"
         android:orientation="horizontal"
         android:layout_margin="10dp"
         android:backgroundTint="@color/white">
-        <ImageView
+        <ImageButton
+            android:id="@+id/ImageBtn_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/touxiang"
-            android:layout_margin="15dp">
-        </ImageView>
+            android:layout_margin="15dp"
+            android:background="#00FFFFFF">
+        </ImageButton>
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -92,26 +94,30 @@
     <!--底部导航栏-->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/btn_normal_shouye_bottom"
-        android:orientation="horizontal"
-        android:layout_weight="1"
+        android:layout_height="90dp"
         android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/btn_normal_shouye_bottom"
+        android:backgroundTint="@color/white"
         android:gravity="center"
-        android:layout_margin="10dp"
-        android:backgroundTint="@color/white">
+        android:orientation="horizontal">
         <!-- 设备 -->
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:orientation="vertical"
+            android:layout_margin="15dp"
             android:gravity="center"
-            android:layout_margin="15dp">
+            android:orientation="vertical">
+
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/shouye"
-                android:background="@color/white">
+                android:background="#00FFFFFF"
+                android:src="@drawable/shouye">
             </ImageButton>
             <TextView
                 android:layout_width="wrap_content"
@@ -124,15 +130,17 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:orientation="vertical"
+            android:layout_margin="15dp"
             android:gravity="center"
-            android:layout_margin="15dp">
+            android:orientation="vertical">
+
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/faxian"
-                android:background="@color/white">
+                android:background="#00FFFFFF"
+                android:src="@drawable/faxian">
             </ImageButton>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -144,14 +152,15 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:orientation="vertical"
+            android:layout_margin="15dp"
             android:gravity="center"
-            android:layout_margin="15dp">
+            android:orientation="vertical">
+
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/tianjia"
-                android:background="@color/white">
+                android:background="#00FFFFFF"
+                android:src="@drawable/tianjia">
             </ImageButton>
         </LinearLayout>
 
@@ -159,15 +168,17 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:orientation="vertical"
+            android:layout_margin="15dp"
             android:gravity="center"
-            android:layout_margin="15dp">
+            android:orientation="vertical">
+
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/gouwu"
-                android:background="@color/white">
+                android:background="#00FFFFFF"
+                android:src="@drawable/gouwu">
             </ImageButton>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -179,15 +190,17 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:orientation="vertical"
+            android:layout_margin="15dp"
             android:gravity="center"
-            android:layout_margin="15dp">
+            android:orientation="vertical">
+
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/wode"
-                android:background="@color/white">
+                android:background="#00FFFFFF"
+                android:src="@drawable/wode">
             </ImageButton>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
