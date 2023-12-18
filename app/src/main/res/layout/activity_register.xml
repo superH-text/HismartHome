@@ -96,7 +96,7 @@
             android:hint="请输入你的验证码"/>
     </LinearLayout>
     <Button
-        ba
+
         android:onClick="register"
         android:id="@+id/mregister"
         android:layout_gravity="center"
