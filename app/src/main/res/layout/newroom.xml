@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:background="@color/black"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/fanhui">
+
+    </ImageButton>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:text="New Room">
+
+    </TextView>
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:text="Name"
+        android:textColor="@color/white"
+        android:textSize="35dp">
+
+    </TextView>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_background"
+        android:layout_marginLeft="35dp"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:text="sd">
+
+    </EditText>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:text="Wallpaper"
+        android:textColor="@color/white"
+        android:textSize="35dp">
+
+    </TextView>
+    <EditText
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select wallpaper for your room"
+        android:textColor="@color/white">
+
+    </EditText>
+</LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_background"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <ImageView
+
+            android:layout_marginLeft="80dp"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/jia"
+            android:="center"
+            >
+
+        </ImageView>
+<TextView
+    android:layout_marginLeft="10dp"
+    android:gravity="center"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:text="Add Image"
+    android:textSize="20sp">
+
+</TextView>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:text="Devicecs"
+        android:textColor="@color/white"
+        android:textSize="35dp">
+    </TextView>
+    <EditText
+        android:layout_marginLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select devices to include in this room"
+        android:textColor="@color/white">
+
+    </EditText>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="145dp"
+        android:layout_height="145dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/btn_newroom"
+        android:orientation="vertical">
+<ImageView
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:layout_gravity="center_horizontal"
+   android:layout_marginTop="45dp"
+    android:src="@drawable/jia"
+    >
+
+</ImageView>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="add">
+
+        </TextView>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    >
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/btn_normal_black"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Add New Room">
+
+    </Button>
+</LinearLayout>
+</LinearLayout>
